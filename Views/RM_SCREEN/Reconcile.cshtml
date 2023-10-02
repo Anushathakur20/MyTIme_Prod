@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MyTIME.Models.MyTime_TB>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <script src="~/js/aprovedrejectReconcile.js"></script>
+   
+</head>
+<body>
+    <div class="card" id="card_reconcile">
+        <div class="float-left card-header text-uppercase text-white" >
+            <h5 id="h_h5" >Reconcile</h5>
+        </div>
+   </div>
+    <div class="card-body">
+        <input type="text" class="form-control" id="currentTime" placeholder="Login Date & Time" hidden>
+        <div class="card-body justify-content-md-center">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center d-grid gap-2 d-md-block me-md-2 me-1">
+
+                <button class="btn btn-success btn-responsive justify-content-md-center me-1" type="button" id="approveRC" placeholder="Approve">
+                    APPROVE
+                </button>
+                <button class="btn btn-danger btn-responsive justify-content-md-center me-1" type="button" id="rejectRC" placeholder="Reject">
+                    REJECT
+                </button>
+
+            </div>
+        </div>
+        <div class="table-responsive text-nowrap">
+            <table id="reConcile" class="table table-bordered table-hover">
+                <thead id="thead_tbl_reconcile">
+                    <tr>
+                        <th>
+                            <input type="checkbox" id="select-all" name="SelectAll" onclick="selectAll()" />
+                        </th>
+                        <th>Match?</th>
+                        <th>Id</th>
+                        <th>DAS ID</th>
+                        <th>Employee Name</th>
+                        <th>Report Manager</th>
+                        <th>Date</th>
+                        <th>Login</th>
+                        <th>Logout</th>
+                        <th>Total Time</th>
+                        <th>Overtime</th>
+                        <th>Work</th>
+                        <th>Meeting</th>
+                        <th>Training</th>
+                        <th>Break</th>
+                        <th>Auxiliary</th>
+                        <th>Comment</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var row in ViewBag.Recon)
+                    {
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="ids" data-id="@row.ID" />
+                            </td>
+                            <td>@row.Match</td>
+                            <td>@row.ID</td>
+                            <td>@row.DasID</td>
+                            <td>@row.Employee_Name</td>
+                            <td>@row.Report_Manager_Name</td>
+                            <td>@String.Format("{0:dd/MM/yyyy}",row.Date)</td>
+                            <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", row.Login)</td>
+                            <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", row.Logout)</td>
+                            <td>@row.Total_Time</td>
+                            <td>@row.Over_Time</td>
+                            <td>@row.Works</td>
+                            <td>@row.Meeting</td>
+                            <td>@row.Training</td>
+                            <td>@row.Breaks</td>
+                            <td>@row.Auxiliary</td>
+                            <td>@row.Comment</td>
+                            <td>@row.Status</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

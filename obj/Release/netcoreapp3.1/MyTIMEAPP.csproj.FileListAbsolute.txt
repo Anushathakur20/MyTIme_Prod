@@ -1,0 +1,361 @@
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.json
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.exe
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.deps.json
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.json
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.dev.json
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Core.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Identity.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\FluentAssertions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.AssemblyReference.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfoInputs.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfo.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CoreCompileInputs.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.Manifest.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.xml
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\scopedcss\bundle\MyTIMEAPP.styles.css
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.input.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.output.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorCoreGenerate.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\BLOCK_TIME\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\login\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Reconcile.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Table\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CopyComplete
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.genruntimeconfig.cache
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\microsoft.identitymodel.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\DotNetStarter.Web.dll
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\CheckCurrentDateExist.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP (3)\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.exe
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.deps.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.dev.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Core.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Identity.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\DotNetStarter.Web.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\FluentAssertions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\ITfoxtec.Identity.Saml2.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\ITfoxtec.Identity.Saml2.MvcCore.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Metrics.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\microsoft.identitymodel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Xml.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.Security.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\Owin.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfoInputs.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CoreCompileInputs.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.MvcApplicationPartsAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.Manifest.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.xml
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\scopedcss\bundle\MyTIMEAPP.styles.css
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.input.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.output.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorCoreGenerate.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\BLOCK_TIME\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\CheckCurrentDateExist.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\login\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Reconcile.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Table\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CopyComplete
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.genruntimeconfig.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.AssemblyReference.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Pages\Claims.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.exe
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\appsettings.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.deps.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.runtimeconfig.dev.json
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Core.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Azure.Identity.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\DotNetStarter.Web.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\FluentAssertions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\ITfoxtec.Identity.Saml2.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\ITfoxtec.Identity.Saml2.MvcCore.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Metrics.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\microsoft.identitymodel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.Saml.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Xml.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.Security.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Microsoft.Owin.Security.WsFederation.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\Owin.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.AssemblyReference.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfoInputs.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.AssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CoreCompileInputs.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.MvcApplicationPartsAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.Manifest.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\staticwebassets\MyTIMEAPP.StaticWebAssets.xml
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\scopedcss\bundle\MyTIMEAPP.styles.css
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.input.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.TagHelpers.output.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorCoreGenerate.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Pages\Claims.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Activity\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\BLOCK_TIME\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Help\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\CheckCurrentDateExist.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Home\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\login\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Reconcile.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\RM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\SM_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\Table\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Index.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\VH_SCREEN\Viewlog.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cache
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.RazorTargetAssemblyInfo.cs
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.Views.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.csproj.CopyComplete
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.dll
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.pdb
+C:\Anusha\MyTIMEAPP\MyTIMEAPP_prod\MyTIMEAPP\obj\Release\netcoreapp3.1\MyTIMEAPP.genruntimeconfig.cache

@@ -1,0 +1,48 @@
+﻿.watch {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    max-width: 275px;
+    margin: 5rem auto;
+    padding: 0rem 0rem;
+    border-radius: 1rem;
+    margin-top:-20px;
+}
+
+.stopwatch {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #224abe;
+    text-shadow: 0px 0px 20px #224abe;
+    /*margin-bottom: 1rem;*/
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .controls button {
+       
+        background: none;
+        border: none;
+        outline: none;
+        user-select: none;
+        cursor: pointer;
+        color: #f3f4f6;
+        background-color: crimson;
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        transition: 0.4s;
+        font-size: 1.125rem;
+    }
+
+button:hover {
+    opacity: 0.7;
+}
+
+button:active {
+    background-color: #1f2937;
+}

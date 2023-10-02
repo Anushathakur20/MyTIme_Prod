@@ -1,0 +1,178 @@
+﻿@using System.Data
+@using MyTIME.Models
+@model DataSet
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SM_SCREEN</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/css/Collapse.css" rel="stylesheet" />
+    @*<script src="~/js/aprovedrejectbySM.js"></script>*@
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <link href="~/css/button.css" />
+    <script src="~/js/DateRange.js"></script>
+    <script src="~/js/moment.min.js"></script>
+    
+</head>
+  <body>
+      <!--Form Start-->
+        @*<div class="container py-3 px-0">*@  
+            <div class="card">  
+                <div class="card-header  text-uppercase text-white " >  
+                    <h5 ><b>SM SCREEN</b></h5> 
+                    <div class="float-right py-0 my-0 well inline-headers">
+                        <form class="row g-3" method="post" asp-controller="SM_SCREEN" asp-action="updatestatusapprovebydrange">
+                            <div class="col-auto">
+                            <select class="form-control" id="Daterange" name="Daterange" asp-items="@(new SelectList(ViewBag.Daterange,"Date","Daterange"))" >
+                              <option value="0">Select Date</option>
+                            </select>
+                            </div>
+                            <div class="col-auto">
+                            <button type="submit" value="submit" id="submit" class="custom-btn btn-3">Approve</button>
+                            </div>
+                            <div class="row">  
+                                <div class="col-md-12">  
+                                    <div class="form-group">  
+                                       
+                                    </div>  
+                                </div>  
+                            </div>  
+                        </form>
+                     
+                    </div>
+                </div>  
+                <div class="card-body">
+                    <input type="text" class="form-control" id="currentTime" placeholder="Login Date & Time" hidden>
+                    <table id="tablegetweeknum" hidden>
+                        <thead>
+                            <tr>
+                                <th>weekNum</th>
+                                <th>start</th>
+                                <th>End</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table_body">
+                        </tbody>
+                    </table>
+                    <section>
+
+                        <div class="table-responsive text-nowrap">
+                            <!--Table-->
+                            <table class="table table table-hover" id="getwknum">
+                                <!--Table head-->
+                                <thead id="tblsmscreenhead">
+                                    <tr>
+                                        <th>DasID</th>
+                                        <th>Report Manager</th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <!--Table head-->
+                                <!--Table body-->
+                                <tbody>
+                                    @foreach (DataRow row in Model.Tables[0].Rows)
+                                    {
+
+                                        <tr>
+                                            <td>@row["DAS_ID"]</td>
+                                            <td>@row["RM_NAME"]</td>
+                                            <td>@row[6]</td>
+                                            <td>@row[5]</td>
+                                            <td>@row[4]</td>
+                                            <td>@row[3]</td>
+                                            <td>@row[2]</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                                <!--Table body-->
+                            </table>
+                            <!--Table-->
+                        </div>
+                    </section>
+                    @*</div>*@
+                    <button class="collapsible" id="btncolapse"><b>Get RAW DATA</b></button>
+                    <div class="content">
+                        <section>
+                            <div class="table-responsive text-nowrap">
+                                <!--Table-->
+                                <table class="table table table-hover" id="getTableRow">
+                                    <!--Table head-->
+                                    <thead id="thead_tbl">
+                                        <tr>
+                                            <th><input type="checkbox" id="select-all" name="SelectAll" /></th>
+                                            <th>#</th>
+                                            <th>DasID</th>
+                                            <th>Employee Name</th>
+                                            <th>Report Manager Name</th>
+                                            <th>Date</th>
+                                            <th>Login</th>
+                                            <th>Logout</th>
+                                            <th>Total Time</th>
+                                            <th>Over Time</th>
+                                            <th>Work</th>
+                                            <th>Meeting</th>
+                                            <th>Training</th>
+                                            <th>Break</th>
+                                            <th>Auxiliary</th>
+                                            <th>Comment</th>
+                                            <th>Status</th>
+                                            <th>View Log</th>
+                                        </tr>
+                                    </thead>
+                                    <!--Table head-->
+                                    <!--Table body-->
+                                    <tbody>
+                                        @foreach (var row in ViewBag.rawdata)
+                                        {
+                                        <tr>
+                                            <td><input type="checkbox" name="ids" data-id="@row.ID" /></td>
+                                            <td>@row.ID</td>
+                                            <td>@row.DasID</td>
+                                            <td>@row.Employee_Name</td>
+                                            <td>@row.Report_Manager_Name</td>
+                                            <td>@String.Format("{0:dd/MM/yyyy}", row.Date)</td>
+                                            <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", row.Login)</td>
+                                            <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", row.Logout)</td>
+                                            <td>@row.Total_Time</td>
+                                            <td>@row.Over_Time</td>
+                                            <td>@row.Works</td>
+                                            <td>@row.Meeting</td>
+                                            <td>@row.Training</td>
+                                            <td>@row.Breaks</td>
+                                            <td>@row.Auxiliary</td>
+                                            <td>@row.Comment</td>
+                                            <td id="colorchange">@row.Status</td>
+                                            <td>
+                                                <a href="https://mytime.in.myatos.net/SM_SCREEN/Viewlog/@row.ID">
+                                                    <button class="custom-btn btn-1" type="button" id="view" title="View Log File" placeholder="View Log">
+                                                        <img class="img-profile rounded-circle" id="imgeye" src="~/img/eye.png">
+                                                    </button>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        }
+                                    </tbody>
+                                    <!--Table body-->
+                                </table>
+                                <!--Table-->
+                            </div>
+                        </section>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                            <button class="custom-btn btn-3  " title=" Approved" id="approve" type="button" placeholder=" aprove">Approve </button>
+                            <button class=" custom-btn btn-2" id="btn" placeholder="Reject">Reject </button>
+                        </div>
+                    </div>
+                </div>  
+ </div>  
+ @*</div>*@  
+   
+     <!--Script Files Start-->
+
+     <!--Script Files End-->
+</body>
+</html>

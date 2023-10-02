@@ -1,0 +1,102 @@
+﻿body {
+}
+td {
+    height: min-content;
+    font-size: small;
+}
+
+tr {
+    height: 2px;
+}
+
+.btn {
+    width: 150px;
+}
+
+body {
+    font-size: 14px;
+    background: #f2f2f2;
+}
+
+.container1 {
+    background: white;
+    width: 475px;
+    padding: 15px;
+    margin: 2px auto;
+    border-top: 5px solid #224abe;
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
+}
+
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 5px auto;
+}
+
+.lock {
+    padding: 8px 11px;
+}
+
+.input-name span {
+    margin-left: 35px;
+}
+
+.date1 {
+    width: 100%;
+    padding: 6px 0 8px 150px;
+    font-size: larger;
+}
+
+.activity {
+    width: 100%;
+    padding: 6px 0 8px 145px;
+    font-size: larger;
+}
+
+.employee {
+    width: 100%;
+    padding: 6px 60px 8px 137px;
+    font-size: medium;
+}
+
+.name {
+    width: 45%;
+    padding: 5px 0 8px 50px;
+    font-size: larger;
+}
+
+.input-name i {
+    position: absolute;
+    font-size: 26px;
+    color: #224abe;
+}
+
+.time {
+    width: 100%;
+    padding: 6px 0 8px 175px;
+    font-size: larger;
+}
+
+.button {
+    background-color: #224abe;
+    width: 100%;
+    color: white;
+    font-size: 23px;
+}
+.card-header {
+    background-color: #224abe;
+}
+
+#theadtbl {
+    position: sticky;
+    top: 0;
+    background-color: #224abe;
+    color: white;
+}
+#datebt{
+    margin-left:0px;
+
+}
+#BlockTime {
+    margin-left: -1px;
+}

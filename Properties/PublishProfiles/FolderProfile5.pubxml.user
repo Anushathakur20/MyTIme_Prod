@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Anusha\publish_prod\MyTime</_PublishTargetUrl>
+    <History>True|2023-04-28T12:13:29.7033525Z;True|2023-04-25T14:16:21.5970323+05:30;True|2023-04-17T16:05:47.7823142+05:30;True|2023-04-17T15:54:10.8167110+05:30;True|2023-04-14T13:47:08.5842590+05:30;True|2023-04-14T13:24:39.2128082+05:30;True|2023-04-14T13:11:28.2129991+05:30;True|2023-04-13T18:28:45.0766088+05:30;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,386 @@
+﻿.btn-responsive {
+    border-radius: 10px;
+    margin-right: 20px;
+    white-space: normal !important;
+    width: 150px;
+}
+
+.btn-lg:active {
+    background-color: black;
+}
+
+#date {
+    margin-top: -30px;
+    margin-left: 0px;
+    margin-right: -5px;
+}
+
+#bid {
+    text-transform: lowercase;
+}
+
+#start {
+    display: none;
+}
+
+#stop {
+    display: none;
+}
+
+#reset {
+    display: none;
+}
+
+.card-header {
+    background-color: #224abe;
+    width: 100%;
+    height:50px;
+}
+
+#GetNow {
+    background-color: #00cc30;
+}
+
+#btn {
+    background-color: #cc3000;
+}
+
+#form-row {
+    margin-top: -92px;
+}
+
+#hiddeninput {
+    display: none;
+}
+
+#hiddenovertimeinput {
+    display: none;
+}
+
+#tableuser {
+    background-color: #224abe;
+    color: white;
+}
+#tblsmscreenhead {
+    position: sticky;
+    top: 0;
+    background-color: #224abe;
+    color: white;
+    overflow-y: scroll;
+}
+#thead_vh {
+    position: sticky;
+    top: 0;
+    background-color: #224abe;
+    color: white;
+    overflow-y: scroll;
+}
+
+#thead_tbl {
+    position: sticky;
+    top: 0;
+    background-color: #224abe;
+    color: white
+}
+
+.nav-item active {
+    background-color: transparent;
+}
+.nav-link {
+    background-color: transparent;
+}
+#link_sb {
+    background-color: transparent;
+    margin-bottom:-15px;
+}
+#thead_tbl_reconcile {
+    position: sticky;
+    top: 0;
+    background-color: #224abe;
+    color: white;
+}
+#approve {
+    margin-right: 20px;
+    white-space: normal !important;
+}
+#reject {
+    border-radius: 10px;
+    margin-right: 20px;
+    white-space: normal !important;
+}
+#card_reconcile {
+    background-color: #224abe;
+}
+#h_h5 {
+    text-align: center;
+}
+#view {
+    margin-top: 0px;
+    width: 20px;
+    height: 30px;
+    margin-bottom:0px;
+}
+
+#imgeye {
+    margin: -14px;
+    margin-top: -20px;
+    padding: 0;
+    color: white;
+    width: 25px;
+}
+/*
+#close {
+    margin-top: -40px;
+    color: white;
+    font-weight: bolder;
+}*/
+.inline-headers {
+    margin-top: -40px;
+}
+#eyebtn {
+    width: 40px;
+}
+#eye {
+    width: 30px;
+    margin-left:-14px;
+    margin-top:-5px;
+}
+
+#viewlogdata {
+    width: 40px;
+}
+.modal-header {
+    background-color: white;
+}
+.modal-dialog,
+.modal-lg{
+    max-width:1000px;
+}
+
+/*table {
+    width: 100%;
+}
+
+thead, tbody, tr, td, th {*/
+   /* display: block;*/
+/*}
+
+    tr:after {
+        content: ' ';*/
+      /* // display: block;*/
+        /*visibility: hidden;
+        clear: both;
+    }
+
+    thead th {
+        height: 30px;*/
+        /*text-align: left;*/
+    /*}
+
+tbody {
+    height: 120px;
+    overflow-y: auto;
+    overflow-x:auto;
+}
+
+thead {*/
+    /* fallback */
+/*}
+
+
+    tbody td, thead th {
+        width: 19.2%;
+        float: left;
+    }*/
+/*
+table {
+    border-collapse: collapse;
+    width: 300px;
+    overflow-x: scroll;
+    display: block;
+}
+
+thead,
+tbody {
+    display: block;
+}
+
+tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 140px;
+}
+
+td,
+th {
+    min-width: 100px;
+    height: 25px;
+    max-width: 100px;
+}*/
+
+#getTableRow {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#getTableRow th, td {
+    white-space: nowrap;
+}
+    #getTableRow th {
+        background-color: #224abe;
+    }
+    
+/*table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}*/
+
+#rounded-circle{
+    background-color:white;
+}
+#Logout_BTN {
+    display: none;
+}
+
+.Legend-colorBox1 {
+    background-color: #A2ff00;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    margin-left: 475px;
+}
+.Legend-colorBox2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-color: blue;
+    background-color: #ff4136;
+    margin-left: 475px;
+}
+.Legend-colorBox3 {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-color: blue;
+    background-color: #ffb100;
+    margin-left: 475px;
+}
+.date {
+    float: left;
+}
+
+.status {
+    float: right;
+}
+.hr2 {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+}
+
+.block {
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+
+    .block:before {
+        content: "";
+        width: 3px;
+        height: 100%;
+        display: block;
+        left: 95%;
+        position: absolute;
+               background-image: -webkit-linear-gradient(top, #fff, #000, #fff);
+        background-image: -moz-linear-gradient(top, #fff, #000, #fff);
+        background-image: -ms-linear-gradient(top, #fff, #000, #fff);
+        background-image: -o-linear-gradient(top, #fff, #000, #fff);
+        background-image: linear-gradient(top, #fff, #000, #fff);
+              
+    }
+
+.Center {
+    top: 50%;
+    left: 50%;
+    /*margin-top: -30px;
+            margin-left: 150px;*/
+    margin-top: -80px;
+    margin-left: 65px;
+}
+
+#model_content {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 140px;
+}
+
+.boldth {
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+    font-family: Cambria;
+    padding-left: 30px;
+    text-align:center;
+}
+
+#styletd {
+    font-size: 17px;
+    color: black;
+    font-family: Cambria;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#tableview tr td {
+    border: none;
+}
+
+#model_header {
+    background-color: #224abe;
+    color: white;
+}
+
+#calendar {
+    max-width: 440px;
+    margin: 40px auto;
+    margin-top: -17px;
+}
+
+.fc-event {
+    cursor: pointer;
+}
+
+.fc-license-message {
+    display: none;
+}
+
+.Legend-colorBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-color: blue;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+#model_body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 2rem;
+}
+
+.fc-title{
+    margin-left:0.5rem;
+}

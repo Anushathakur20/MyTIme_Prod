@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>MyTime</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" />
+    <link href="~/css/Timer.css" rel="stylesheet" />
+    <link href="~/css/Collapse.css" rel="stylesheet" />
+    <link href="~/css/button.css" rel="stylesheet" />
+    <link href="~/css/datatable.bootstrap4.min.css" />
+    <link href="~/lib/limonte-sweetalert2/sweetalert2.min.css" rel="stylesheet">
+    <script src="~/lib/limonte-sweetalert2/sweetalert2.min.js"></script>
+    <script src="~/js/sweetalert.min.js"></script>
+    <script src="~/js/moment.min.js"></script>
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <script src="~/js/DisplayDateTime.js"></script>
+    <script src="~/js/Activity_Status.js"></script>
+
+</head>
+<body>
+    <!--Form Start-->
+
+    <form asp-controller="RM_SCREEN" asp-action="Viewlog" method="post" enctype="multipart/form-data">
+
+        <div class="card">
+            <div class="card-header  text-uppercase text-white ">
+
+                <h5>Activity Log</h5>
+
+
+            </div>
+            <div class="card-body">
+                <table class="table table table-hover">
+                    <!--Table head-->
+                    <thead id="tableuser">
+                        <tr>
+                            <th>#</th>
+                            <th>Das ID</th>
+                            <th>Date</th>
+                            <th>Activity</th>
+                            <th>Start_Time</th>
+                            <th>End_Time</th>
+                            <th>Total_Time</th>
+                            <th>Comment</th>
+                        </tr>
+                    </thead>
+                    <!--Table head-->
+                    <!--Table body-->
+                    <tbody>
+                        @if (ViewBag.GetViewLog != null)
+                        {
+                            @foreach (var r in ViewBag.GetViewLog)
+                            {
+                                <tr>
+                                    <td>@r.id</td>
+                                    <td>@r.DAS_ID</td>
+                                    <td>@String.Format("{0:dd/MM/yyyy}", r.Date)</td>
+                                    <td>@r.Activity</td>
+                                    <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", r.Start_Time)</td>
+                                    @if (r.End_Time != null)
+                                    {
+                                        <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", r.End_Time)</td>
+                                    }
+                                    else
+                                    {
+                                        <td></td>
+                                    }
+                                    <td>@r.Total_Time</td>
+                                    <td>@r.Comment</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                    <!--Table body-->
+                </table>
+                <input type="text" class="form-control" id="currentTime" placeholder="Login Date & Time" hidden>
+            </div>
+            <div class="float-right py-0 my-0 well inline-headers">
+                <a href="https://mytime.in.myatos.net/Home/Index" style=" background-color:crimson;color:white;" id="close">
+                    <b>Close</b>
+                </a>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

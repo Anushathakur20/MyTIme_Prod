@@ -1,0 +1,109 @@
+﻿@*@using System.Data*@
+@*@model DataSet*@
+@model IEnumerable<MyTIME.Models.RMSCREEN>
+    <html>
+    <head>
+        <script src="~/js/ApproveReject.js"></script>
+    </head>
+    <body>
+        <div class="card">
+            <div class="float-left card-header text-uppercase text-white">
+                <h5 class="justify-content-md-end">Reporting Manager Screen</h5>
+            </div>
+            <div class="float-right py-0 my-0 well inline-headers">
+            </div>
+            <div class="card-body justify-content-md-center">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center d-grid gap-2 d-md-block me-md-2 me-1">
+                    <button class="btn btn-info btn-responsive justify-content-md-center me-1" type="button" id="block_time">
+                        BLOCK TIME
+                    </button>
+                    <button id="approve-btn" class="btn btn-success btn-responsive justify-content-md-center me-1" type="button" placeholder="Approve" >
+                        APPROVE
+                    </button>
+                    <button id="reject-btn" class="btn btn-danger btn-responsive justify-content-md-center me-1" type="button" placeholder="Reject" >
+                        REJECT
+                    </button>
+                    <button id="reconcile-btn" class="btn btn-info btn-responsive justify-content-md-center me-1" type="button"  placeholder="Reconcile" >
+                        RECONCILE
+                    </button>
+                </div>
+                <br />
+                <section>
+                    <div class="table-responsive text-nowrap">
+                        
+                        <table id="example" class="table table-hover table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th> </th>
+                                    <th>Id</th>
+                                    <th>DAS ID</th>
+                                    <th>Employee Name</th>
+                                    <th>Date</th>
+                                    <th>Login</th>
+                                    <th>Logout</th>
+                                    <th>Total Time</th>
+                                    <th>Overtime</th>
+                                    <th>Work</th>
+                                    <th>Meeting</th>
+                                    <th>Training</th>
+                                    <th>Break</th>
+                                    <th>Auxiliary</th>
+                                    <th>Comment</th>
+                                    <th>Status</th>
+                                    <th>View</th>
+                                </tr>
+                            </thead>
+                            <thead id="thead_tbl">
+                                <tr>
+                                    <th><input type="checkbox" name="select_all" value="1" id="example-select-all"></th>
+                                    <th>Id</th>
+                                    <th>DAS ID</th>
+                                    <th>Employee Name</th>
+                                    <th>Date</th>
+                                    <th>Login</th>
+                                    <th>Logout</th>
+                                    <th>Total Time</th>
+                                    <th>Overtime</th>
+                                    <th>Work</th>
+                                    <th>Meeting</th>
+                                    <th>Training</th>
+                                    <th>Break</th>
+                                    <th>Auxiliary</th>
+                                    <th>Comment</th>
+                                    <th>Status</th>
+                                    <th>View</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var row in Model)
+                                {
+                                <tr>
+                                    <td>
+                                        @row.ID
+                                    </td>
+                                    <td>@row.ID</td>
+                                    <td>@row.DasID</td>
+                                    <td>@row.Employee_Name</td>
+                                    <td>@row.Date</td>
+                                    <td>@row.Login</td>
+                                    <td>@row.Logout</td>
+                                    <td>@row.Total_Time</td>
+                                    <td>@row.Over_Time</td>
+                                    <td>@row.Works</td>
+                                    <td>@row.Meeting</td>
+                                    <td>@row.Training</td>
+                                    <td>@row.Breaks</td>
+                                    <td>@row.Auxiliary</td>
+                                    <td>@row.Comment</td>
+                                    <td>@row.Status</td>
+                                    <td><a href="https://mytime.in.myatos.net/RM_SCREEN/Viewlog/@row.ID"><button class="btSelect"></button></td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

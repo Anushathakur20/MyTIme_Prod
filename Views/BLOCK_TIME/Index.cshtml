@@ -1,0 +1,111 @@
+﻿@using MyTIME.Models
+
+@model MyTIME.Models.BLOCKTIME
+<!DOCTYPE html>
+<html>
+<head>
+    @*<script src="~/js/googleapi.js"></script>*@
+    <link href="~/css/all.css" rel="stylesheet" />
+    <link href="~/css/all.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/js/moment.min.js"></script>
+    <script src="~/js/googleapi.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap-multiselect.css" />
+    <link href="~/css/bootstrasp.multiselect.min.css" />
+    <script src="~/js/bootstrap-multiselect.js"></script>
+    <script src="~/js/bootstrap-multiselect.min.js"></script>
+    <link href="~/css/BlockTime.css" rel="stylesheet" />
+    <script src="~/js/moment.min.js"></script>
+    <script src="~/js/block_time.js"></script>
+    
+</head>
+<body>
+    <div class="card">
+        <div class="float-left card-header text-uppercase text-white">
+            <h5>Block Time</h5>
+        </div>
+        <br />
+        @*<div class="card-body">*@
+        <input type="text" class="form-control" id="currentTime" placeholder="Login Date & Time" hidden>
+        <section>
+            <div class="container1">
+                <div class="form-container">
+                    <form method="post" asp-controller="BLOCK_TIME" asp-action="Index">
+                        <div class="input-name">
+                            <i class="fas fa-calendar lock"></i>
+                            <input type="date" placeholder="Enter date" asp-for="date" class="date1" id="datebt" />
+                        </div>
+                        <div class="input-name">
+                            <i class="fas fa-tasks lock"></i>
+                            <select class="activity" name="activity" id="activity" asp-for="activity">
+                                <option value="0">Select a Activity</option>
+                                <option value="Work">Work</option>
+                                <option value="Meeting">Meeting</option>
+                                <option value="Training">Training</option>
+                                <option value="Auxiliary">Auxiliary</option>
+                                <option value="Break">Break</option>
+                            </select>
+                        </div>
+                        <div class="input-name">
+                            <i class="fas fa-user lock"></i>
+                            <select class="employee" id="employee_Name" name="Memployee_Name" asp-for="Memployee_Name" asp-items="@(new MultiSelectList(ViewBag.NamesModels,"DAS_ID","Employee_Name"))" multiple>
+                                <option value="0">Select Employee</option>
+                            </select>
+                        </div>
+                        <div class="input-name">
+                            <i class="fas fa-clock lock"></i>
+                            <input type="time" placeholder="Enter start time" asp-for="start_Time" id="startTime" class="name" />
+                            <span>
+                                <i class="fas fa-clock lock"></i>
+                                <input type="time" placeholder="Enter end time" asp-for="end_Time" id="endTime" class="name" />
+                            </span>
+                        </div>
+                        <div class="input-name">
+                            <i class="fas fa-clock lock"></i>
+                            <input type="text" placeholder="Total time" asp-for="total_Time" id="totalTime" class="time" />
+                        </div>
+                        <div class="input-name">
+                            <button type="submit" value="submit" id="BlockTime" class="button">Block Time</button>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                @Html.Raw(@ViewBag.Alert)
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+            <table id="bTime" class="table table-bordered table-hover table-responsiv">
+                <thead id="theadtbl">
+                    <tr>
+                        <th>Date</th>
+                        <th>Activity</th>
+                        <th>Employee Name</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                        <th>Total Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var blockTime in ViewBag.BlockTime)
+                    {
+                    <tr>
+                        <td>@String.Format("{0:dd/MM/yyyy}", blockTime.date)</td>
+                        <td>@blockTime.activity</td>
+                        <td>@blockTime.employee_Name</td>
+                        <td>@blockTime.start_Time</td>
+                        <td>@blockTime.end_Time</td>
+                        <td>@blockTime.total_Time</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+    </div>
+  
+</body>
+</html>

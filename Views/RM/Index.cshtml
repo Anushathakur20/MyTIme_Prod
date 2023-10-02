@@ -1,0 +1,138 @@
+﻿@model IEnumerable<MyTIME.Models.RMSCREEN>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        td {
+            height: min-content;
+            font-size: small;
+        }
+
+        tr {
+            height: 2px;
+        }
+
+        .btn {
+            width: 150px;
+        }
+    </style>
+
+    @*<script src="~/js/ApproveReject.js"></script>*@
+    @*<script src="~/js/Reconcile.js"></script>*@
+</head>
+<body>
+
+    @*<div class="container py-3">*@
+    <div class="card">
+        <div class="float-left card-header text-uppercase text-white" style="background-color:#224abe;">
+            <h5 style="text-align:left;">Reporting Manager Screen</h5>
+        </div>
+        <div class="float-right py-0 my-0 well inline-headers">
+            @*<h4 id="date" style="margin-top:-45px;margin-left:550px;">date</h4>*@
+        </div>
+        <div class="card-body justify-content-md-center">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center d-grid gap-2 d-md-block me-md-2 me-1">
+                <button class="btn btn-info btn-responsive justify-content-md-center me-1" type="button" onclick="location.href='http://localhost:10001/BlockTime'" placeholder="Block Time" style="border-radius:10px;margin-right: 40px;white-space: normal !important;">
+                    BLOCK TIME
+                </button>
+                <button id="approve-btn" class="btn btn-success btn-responsive justify-content-md-center me-1" type="button" placeholder="Approve" style="border-radius:10px;margin-right: 20px;white-space: normal !important;">
+                    APPROVE
+                </button>
+                <button id="reject-btn" class="btn btn-danger btn-responsive justify-content-md-center me-1" type="button" placeholder="Reject" style="border-radius:10px;margin-right: 20px;white-space: normal !important;">
+                    REJECT
+                </button>
+                <button class="btn btn-info btn-responsive justify-content-md-center me-1" type="button" onclick="reconcile()" placeholder="Reconcile" style="border-radius:10px;margin-left: 30px;white-space: normal !important;">
+                    RECONCILE
+                </button>
+            </div>
+            <br />
+            <section>
+                <div class="table-responsive text-nowrap">
+                    @*<form id="frm-example-approve" method="POST">
+                            <button id="approve-btn" class="btn btn-success btn-responsive justify-content-md-center me-1" style="border-radius:10px;margin-right: 20px;white-space: normal !important;">
+                                APPROVE
+                            </button>
+                        </form>
+                        <form id="frm-example-reject" method="POST">
+                            <button class="btn btn-danger btn-responsive justify-content-md-center me-1" style="border-radius:10px;margin-right: 20px;white-space: normal !important;">
+                                REJECT
+                            </button>
+                        </form>*@
+                    <table id="example" class="table table-hover table table-bordered">
+                        <thead>
+                            <tr>
+                                <th> </th>
+                                <th>Id</th>
+                                <th>DAS ID</th>
+                                <th>Employee Name</th>
+                                <th>Date</th>
+                                <th>Login</th>
+                                <th>Logout</th>
+                                <th>Total Time</th>
+                                <th>Overtime</th>
+                                <th>Comment</th>
+                                <th>Work</th>
+                                <th>Meeting</th>
+                                <th>Training</th>
+                                <th>Break</th>
+                                <th>Auxiliary</th>
+                                <th>View</th>
+                            </tr>
+                        </thead>
+                        <thead style="position:sticky;top:0;background-color:#224abe;color:white">
+                            <tr>
+                                <th><input type="checkbox" name="select_all" value="1" id="example-select-all"></th>
+                                <th>Id</th>
+                                <th>DAS ID</th>
+                                <th>Employee Name</th>
+                                <th>Date</th>
+                                <th>Login</th>
+                                <th>Logout</th>
+                                <th>Total Time</th>
+                                <th>Overtime</th>
+                                <th>Comment</th>
+                                <th>Work</th>
+                                <th>Meeting</th>
+                                <th>Training</th>
+                                <th>Break</th>
+                                <th>Auxiliary</th>
+                                <th>View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in Model)
+                            {
+                                <tr>
+                                    <td>                                       
+                                        @row.ID
+                                    </td>
+                                    <td>@row.ID</td>
+                                    <td>@row.DasID</td>
+                                    <td>@row.Employee_Name</td>
+                                    <td>@row.Date</td>
+                                    <td>@row.Login</td>
+                                    <td>@row.Logout</td>
+                                    <td>@row.Total_Time</td>
+                                    <td>@row.Over_Time</td>
+                                    <td>@row.Comment</td>
+                                    <td>@row.Works</td>
+                                    <td>@row.Meeting</td>
+                                    <td>@row.Training</td>
+                                    <td>@row.Breaks</td>
+                                    <td>@row.Auxiliary</td>
+                                    <td><button class="btSelect"></button></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

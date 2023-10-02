@@ -1,0 +1,238 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextaccessor
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"] - MyTIME</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/datatable.bootstrap4.min.css" />
+    <link rel=" stylesheet" href="~/css/datatable.min.css" />
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <link href="~/css/button.css" rel="stylesheet" />
+    <link href="~/css/all.css" rel="stylesheet" />
+    <link href="~/css/all.min.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <img class="img-profile rounded-circle" width="100%" height="40px"
+                         src="~/img/stopwatch (1).png">
+                </div>
+                <div class="sidebar-brand-text mx-3">My<sup>TIME</sup></div>
+
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0 " />
+
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["DAS_ID"]).ToString() != "")
+            {
+                <li class="sidebar-brand ">
+                    @*<i class="fa fa-id-card"></i>*@
+                    <span id="dasid">DAS_ID:</span>
+                    <span>@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["DAS_ID"])</span>
+
+                </li>
+                <hr class="sidebar-divider my-0 " />
+                <li class="sidebar-brand  ">
+                    @*<i class="fa fa-user"></i>*@
+                    <span id="dasid">User: @Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["Employee_Name"])</span>
+                    <br />
+                </li>
+                <hr class="sidebar-divider my-0 " />
+                <li class="sidebar-brand  ">
+
+                    <span id="dasid">RM: @Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["RM_Name"])</span><br />
+                </li>
+            }
+            <hr class="sidebar-divider my-0" />
+            <!-- Nav Item - Dashboard -->
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["DAS_ID"]).ToString() != "")
+            {
+
+                <li class="nav-item active" id="link_sb">
+                    <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/Home/Index">
+                        <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                             src="~/img/User.png">
+                        <span>User Screen</span>
+                    </a>
+                </li>
+                <hr class="sidebar-divider" />
+            }
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["ROLERM_NAME"]).ToString() == "Report_Mgr")
+            {
+                <li class="nav-item active" id="link_sb">
+                    @*<a class="nav-link" id="rmlink">*@
+                    <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/RM_SCREEN/Index">
+                        <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                             src="~/img/RM.png">
+                        <span>RM Screen</span>
+                    </a>
+                </li>
+                <!-- Divider -->
+                <hr class="sidebar-divider" />
+            }
+
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["ROLE_NAME"]).ToString() == "GCM-7")
+            {
+
+                <li class="nav-item active" id="link_sb">
+                    @*<a class="nav-link" id="smlink">*@
+                    <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/SM_SCREEN/Index">
+                        <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                             src="~/img/SM.png">
+                        <span>SM Screen</span>
+                    </a>
+                </li>
+                <hr class="sidebar-divider" />
+            }
+
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["ROLEVH_NAME"]).ToString() == "GCM-8")
+            {
+
+                <li class="nav-item active" id="link_sb">
+                    @*<a class="nav-link" id="VHLink1">*@
+                    <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/VH_SCREEN/Index">
+                        <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                             src="~/img/VH.png">
+                        <span>VH Screen</span>
+                    </a>
+                </li>
+            }
+            @if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["ROLEVH_NAME"]).ToString() == "GCM-9")
+            {
+
+                <li class="nav-item active" id="link_sb">
+                    @*<a class="nav-link" id="VHLink2">*@
+                    <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/VH_SCREEN/Index">
+                        @*<i class="fas fa-sitemap fa-sm text-white-50"></i>*@
+                        <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                             src="~/img/VH.png">
+                        <span>VH Screen</span>
+                    </a>
+                </li>
+            }
+            <li class="nav-item active" id="link_sb">
+                <a class="nav-link" id="homelink" href="https://mytime.in.myatos.net/Help/Index">
+                    @*<i class="fas fa-sitemap fa-sm text-white-50"></i>*@
+                    <img class="img-profile rounded-circle" id=rounded-circle width="100%" height="20px"
+                         src="~/img/report.png">
+                    <span>Help</span>
+                </a>
+            </li>
+            @*@if (@Html.Raw(httpContextaccessor.HttpContext.Request.Cookies["DAS_ID"]).ToString() != "")
+        {
+        <form class="form-inline" asp-controller="Home" asp-action="Logout">
+            <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+
+        }*@
+            <!-- Divider -->
+            @*  <hr class="sidebar-divider d-none d-md-block" />*@
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+        </ul>
+        <!-- End of Sidebar -->
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Begin Page Content -->
+                @*<div class="container-fluid">*@
+                <div class="row">
+                    <div class="container">
+                        <main role="main" class="pb-1">
+                            @RenderBody()
+                        </main>
+                    </div>
+                </div>
+                @* </div>*@
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+            <!-- Footer -->
+            <footer class="border-top footer text-muted">
+                <div class="container">
+                    &copy; 2022 - MyTIME - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>*@
+    <!-- Bootstrap core JavaScript-->
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="~/js/sb-admin-2.min.js"></script>
+
+    @*Updated CDN Link*@
+    <script src="~/js/googleapi.js"></script>
+    <script src="~/js/bootstrapcdn.js"></script>
+    <script src="~/js/jquery.datatable.min.js"></script>
+    <script src="~/js/datatable.bootstrap4.min.js"></script>
+    <script src="~/js/datatable.min.js"></script>
+    <script src="~/js/Site.js"></script>
+    <script src="~/js/collapsible.js"></script>
+   
+
+   
+</body>
+</html>

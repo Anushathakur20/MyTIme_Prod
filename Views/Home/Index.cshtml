@@ -1,0 +1,371 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextaccessor
+@using System.Data
+@model MyTIME.Models.MyTime_TB
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyTime</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/css/font-awesome.min.css" />
+    <link href="~/css/Timer.css" rel="stylesheet" />
+    <link href="~/css/Collapse.css" rel="stylesheet" />
+    <link href="~/css/button.css" rel="stylesheet" />
+    <link href="~/css/datatable.bootstrap4.min.css" />
+    <link href="~/lib/limonte-sweetalert2/sweetalert2.min.css" rel="stylesheet">
+    <link href="~/css/Home.css" rel="stylesheet" />
+    <link href="~/css/fullcalendar.css" rel="stylesheet" />
+    <script src="~/lib/limonte-sweetalert2/sweetalert2.min.js"></script>
+    <script src="~/js/sweetalert.min.js"></script>
+    <script src="~/js/moment.min.js"></script>
+    <script src="~/js/DisplayDateTime.js"></script>
+    @*<script src="~/js/IsDataExist.js"></script>*@
+    <script src="~/js/Activity_Status.js"></script>
+    @*<script src="~/js/Logout.js"></script>*@
+
+    <script src="~/js/googleapi.js"></script>
+    <script src="~/js/bootstrapcdn.js"></script>
+    <script src="~/js/fullcalendar.js"></script>
+    <script src="~/js/fullcalendar_view.js"></script>
+
+</head>
+<body>
+    <!--Form Start-->
+
+    <form asp-controller="Home" asp-action="Index" method="post" enctype="multipart/form-data">
+        @*<div class="container py-3 px-0">*@
+        <div class="card">
+            <div class="card-header  text-uppercase text-white ">
+
+                <h5><b>M<b id="bid">y</b>TIME </b></h5>
+
+                <div class="float-right py-0 my-0 well inline-headers">
+                    <h4 id="date">date</h4>
+
+                </div>
+
+            </div>
+            <div class="card-body">
+                <!--Stopwatch Start-->
+                <div class="watch">
+
+                    <!--Activity Buttons Start-->
+
+                    <div id="btn-responsive" class="d-grid gap-2 d-md-flex justify-content-md-center d-grid gap-2 me-md-2 me-1">
+
+                        <button class="custom-btn btn-3 " data-toggle="modal" title="Login Date&Time" id="GetNow" type="button" placeholder=" Login Time">
+                            Login
+                        </button>
+                        <button class="custom-btn btn-1" type="button" id="work" title="Processing,Reporting,Escalation,handling,RCA,Data analysis,Deck preparation Any other process related work!" placeholder=" Work Time">
+                            Work
+                        </button>
+                        <button class="custom-btn btn-1" type="button" id="meeting" title="Make sure you clicked Login first" placeholder=" Meeting Time">
+                            Meeting
+                        </button>
+                        <button class="custom-btn btn-1" type="button" id="training" title="Make sure you clicked Login first" placeholder=" Training Time">
+                            Training
+                        </button>
+                        <button class="custom-btn btn-1" type="button" id="breaks" title="Make sure you clicked Login first" placeholder=" Break Time">
+                            Break
+                        </button>
+                        <button class="custom-btn btn-1" type="button" id="auxiliary" title="Make sure you clicked Login first" placeholder="Auxiliary TIme">
+                            Auxiliary
+                        </button>
+                        @*<button class=" custom-btn btn-2" id="logout_now" title="Make sure you clicked Login first" placeholder="Logout Time">
+                                Logout
+                            </button>*@
+                        <button class="custom-btn btn-2" type="button" id="Logout_BTN" title="Make sure you clicked Login first" placeholder="logout">
+                            Logout
+                        </button>
+                        <button type="button" class="custom-btn btn-1" data-toggle="modal" data-target=".bd-example-modal-lg" id="eyebtn"> <img class="img-profile rounded-circle" id="eye" src="~/img/eye.png"></button>
+
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Activity Log</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+                                <div class="modal-content">
+                                    <table class="table table table-hover" id="GetStarttime">
+                                        <!--Table head-->
+                                        <thead id="tableuser">
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Das ID</th>
+                                                <th>Date</th>
+                                                <th>Activity</th>
+                                                <th>Start_Time</th>
+                                                <th>End_Time</th>
+                                                <th>Total_Time</th>
+                                                <th>Comment</th>
+                                            </tr>
+                                        </thead>
+                                        <!--Table head-->
+                                        <!--Table body-->
+                                        <tbody>
+                                            @if (ViewBag.GetActivityLog != null)
+                                            {
+                                                @foreach (var r in ViewBag.GetActivityLog)
+                                                {
+                                                    <tr>
+                                                        <td>@r.id</td>
+                                                        <td>@r.DAS_ID</td>
+                                                        @if (r.Date != null)
+                                                        {
+                                                            <td>@String.Format("{0:dd/MM/yyyy }", r.Date)</td>
+                                                        }
+                                                        else
+                                                        {
+                                                            <td></td>
+                                                        }
+
+                                                        <td>@r.Activity</td>
+                                                        <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", r.Start_Time)</td>
+                                                        @if (r.End_Time != null)
+                                                        {
+                                                            <td>@String.Format("{0:dd/MM/yyyy HH:mm:ss}", r.End_Time)</td>
+                                                        }
+                                                        else
+                                                        {
+                                                            <td></td>
+                                                        }
+
+                                                        <td>@r.Total_Time</td>
+                                                        <td>@r.Comment</td>
+                                                    </tr>
+                                                }
+                                            }
+                                        </tbody>
+                                        <!--Table body-->
+                                    </table>
+                                    <!--Table-->
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" id="currentTime" placeholder="Login Date & Time" hidden>
+                    <!--Activity Buttons Ends-->
+                </div>
+                <!--Stopwatch Ends-->
+                <!--Form with Input Starts-->
+
+
+                <div class="form-row justify-content-md-center py-0  " id="form-row">
+
+
+                    <div class="col-md-4 mb-2">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend"><img class="img-profile rounded-circle" src="~/img/login.png" width="100%" height="20px"></span>
+                            </div>
+                            <input type="text" asp-for="Login" class="form-control" id="c_Time" placeholder="Login Date & Time" readonly>
+                            <input type="text" class="form-control" id="log" placeholder="Login Date & Time" hidden>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend"><img class="img-profile rounded-circle" src="~/img/stopwatch.png" width="100%" height="20px"></span>
+                            </div>
+                            @*@if( ViewBag.totaltime != null){
+                                     <input type="text" value=@Html.Raw(@ViewBag.totaltime) class="form-control" id="Total_txt" placeholder="Total Time" readonly>}
+                                     else{
+                                     <input type="text" asp-for="Total_Time" class="form-control" id="Total_txt" placeholder="Total Time" readonly>
+                                }*@
+                            <input type="text" asp-for="Total_Time" class="form-control" id="Total_txt" placeholder="Total Time" readonly>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend"><img class="img-profile rounded-circle" src="~/img/shutdown.png" width="100%" height="20px"></span>
+                            </div>
+                            <input type="text" asp-for="Logout" class="form-control" id="getctime" placeholder=" Logout Date & Time" readonly>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-10 mb-2">
+                        <div class="input-group">
+                            <input type="text" rows="3" cols="60" asp-for="Comment" class="form-control" id="Comment" placeholder="Comment......">
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend"><img class="img-profile rounded-circle" src="~/img/delivery.png" width="100%" height="20px"></span>
+                            </div>
+                            <input type="text" class="form-control" id="Current_Status_txt" placeholder="Current Status" readonly>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            @Html.Raw(@ViewBag.Alert)
+
+                        </div>
+                    </div>
+                </div>
+                <!--Form with Input Starts-->
+                <div id='calendar'></div>
+                <ul class="Legend" style="margin-left: 260px; margin-top: -150px;">
+                    <li class="Legend-item">
+                        <span class="Legend-colorBox3">
+                        </span>
+                        <span class="Legend-label">
+                            Awaiting Approval
+                        </span>
+                    </li>
+                    <li class="Legend-item">
+                        <span class="Legend-colorBox1">
+                        </span>
+                        <span class="Legend-label">
+                            Approved
+                        </span>
+                    </li>
+                    <li class="Legend-item">
+                        <span class="Legend-colorBox2">
+                        </span>
+                        <span class="Legend-label">
+                            Rejected
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    </form>
+    
+      
+    <table class="table table table-hover" id="getloginlogouttotal" hidden>
+        <!--Table head-->
+        <thead>
+            <tr>
+                <th>Login</th>
+                <th>Logout</th>
+                <th>Total Time</th>
+            </tr>
+        </thead>
+        <!--Table head-->
+        <!--Table body-->
+        <tbody>
+            @if (ViewBag.getdataLLTT != null)
+            {
+                @foreach (var row in ViewBag.getdataLLTT)
+                {
+                    <tr>
+                        <td>@row.Login</td>
+                        <td>@row.Logout</td>
+                        <td>@row.Total_Time</td>
+                    </tr>
+                }
+
+            }
+        </tbody>
+        <!--Table body-->
+    </table>
+
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" id="model_content">
+                <div class="modal-header" id="model_header">
+                    <h4 id="modalTitle" class="modal-title">MyTime Details</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body" id="model_body">
+                    @*  <span  id= "idtd" class="id"></span>*@
+                    <div>
+                        <span id="styletd" class="date"></span>
+                        <span id="styletd" class="status"></span>
+                    </div><br />
+                    <hr class="hr2" />
+
+                    <div class="Center">
+                        <table id="tableview">
+                            <tr>
+                                <td class="boldth">Login</td>
+                                <td class="boldth">Logout</td>
+                                <br />
+                            </tr>
+                            <tr>
+                                <td id="styletd" class="login"></td>
+                                <td id="styletd" class="logout"></td>
+                            </tr>
+                            <br />
+                            <br />
+                            <tr>
+                                <td class="boldth">Total Time</td>
+                                <td class="boldth">Over Time</td>
+                                <br />
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td id="styletd" class="total"></td>
+                                <td id="styletd" class="overtime"></td>
+                            </tr>
+                        </table>
+                    </div><br />
+                    <hr class="hr2" />
+                    <table>
+                        <tr>
+                            <td class="boldth">Work:</td>
+                            <td class="boldth">Meeting:</td>
+                            <td class="boldth">Training:</td>
+                            <td class="boldth">Break:</td>
+                            <td class="boldth">Auxiliary:</td>
+                        </tr>
+                        <tr>
+                            <td id="styletd" class="work"></td>
+                            <td id="styletd" class="meeting"></td>
+                            <td id="styletd" class="training"></td>
+                            <td id="styletd" class="break"></td>
+                            <td id="styletd" class="auxiliary"></td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+                <div class="modal-footer">
+
+                    @* <button class="custom-btn btn-1" onclick="getview()" type="button" id="viewlog" title="View Log File" placeholder="View Log">
+                                   <img class="img-profile rounded-circle" id="imgeye" src="~/img/eye.png">
+                               </button>
+                        <button type="button"  class="btn btn-primary" id="getidforview" > View </button>*@
+                    <button type="button" class="custom-btn btn-1" id="viewlogdata">
+                        <img class="img-profile rounded-circle" id="imgeye" src="~/img/eye.png">
+                    </button>
+                    <button type="button" class="btn btn-default" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">Close</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
